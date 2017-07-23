@@ -19,4 +19,7 @@
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Specification\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Specification\README.md" />
+  </ItemGroup>
 </Project>
